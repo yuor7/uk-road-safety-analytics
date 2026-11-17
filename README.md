@@ -2,12 +2,20 @@
 
 Big-data analysis of 2M+ police-reported UK road collisions (2005–2017) using PySpark, with a static website that presents the results.
 
+**Live site: [yuor7.github.io/uk-road-safety-analytics](https://yuor7.github.io/uk-road-safety-analytics/)**
+
+[![Website](https://img.shields.io/badge/website-live-brightgreen)](https://yuor7.github.io/uk-road-safety-analytics/)
+[![Deployed with GitHub Pages](https://img.shields.io/badge/deployed%20with-GitHub%20Pages-blue)](https://yuor7.github.io/uk-road-safety-analytics/)
+
+[![Website preview](assets/website-preview.png)](https://yuor7.github.io/uk-road-safety-analytics/)
+
 ## What's inside
 
 | Path | Description |
 |---|---|
 | `UK_Road_Safety_Big_Data_Analytics.ipynb` | Full analysis: data validation, cleaning, EDA, statistical tests, baseline severity model |
 | `docs/index.html` | Self-contained project website (charts embedded, no build step) |
+| `assets/` | Screenshots used in this README |
 
 ## Highlights
 
@@ -26,9 +34,11 @@ jupyter notebook UK_Road_Safety_Big_Data_Analytics.ipynb
 
 Download the CSVs from the Kaggle dataset below and update the file paths in the first cells.
 
-## View the website
+## Deployment
 
-Open `docs/index.html` in a browser, or enable **GitHub Pages** (Settings → Pages → Deploy from branch → `main` / `/docs`).
+The website is served by GitHub Pages from the `/docs` folder on the `main` branch. Every push to `main` triggers an automatic build and deploy.
+
+![GitHub Pages build and deployment succeeded](assets/deployment.png)
 
 ## Data sources
 
