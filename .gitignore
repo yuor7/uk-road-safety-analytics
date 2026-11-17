@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+__pycache__/
+*.csv
+spark-warehouse/
+.DS_Store
